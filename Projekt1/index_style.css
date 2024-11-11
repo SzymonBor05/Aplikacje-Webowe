@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #80B9AD;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 120px;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+#header-content {
+    background-color: #6295A2;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+#header-content a :hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+#clock {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+}
+
+nav {
+    background-color: #6295A2;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+main {
+    color: white;
+    padding: 30px;
+    gap: 40px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+main h2 {
+    text-decoration: underline;
+}
+
+#welcome {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#welcome .text {
+    flex: 1;
+}
+
+#about-trip {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#site-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#invite {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    background-color: #6295A2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0;
+}
+
+

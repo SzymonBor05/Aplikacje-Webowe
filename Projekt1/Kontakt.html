@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title> KONTAKT </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-$END$
+
+    <header>
+        <a href="index.html"> <img src="california.png" alt="Opis obrazka" id="logo"> </a>
+
+        <a href="index.html">
+            <div id="header-content">
+                <h1> KONTAKT </h1>
+            </div>
+        </a>
+
+        <div id="clock"></div>
+    </header>
+
+    <nav>
+        <a href="Galeria.html"> Galeria </a>
+        <a href="Kontakt.html"> Kontakt </a>
+    </nav>
+
+    <div id="contact-form">
+        <form action="#" method="post">
+            <label for="topic">Wybierz temat wiadomości:</label>
+            <select id="topic" name="topic" required>
+                <option value="">Wybierz temat</option>
+                <option value="pytanie">Pytanie</option>
+                <option value="opinia">Opinia</option>
+                <option value="problem">Problem techniczny</option>
+                <option value="inne">Inne</option>
+            </select>
+
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+
+            <label for="message">Wpisz swoją wiadomość:</label>
+            <textarea id="message" name="message" rows="2" placeholder="Wpisz swoją wiadomość tutaj" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>ą
+
+    <footer>
+        <p> &copy; 2024 Szymon Borusiewicz | Moja Podróż do Kalifornii </p>
+    </footer>
 </body>
 </html>
